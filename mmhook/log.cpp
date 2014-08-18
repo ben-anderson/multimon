@@ -8,7 +8,7 @@
 
 #define LOG_CPP
 
-#include "mmhooks64.h"
+#include "mmhook.h"
 #include "log.h"
 
 #define LOGTIMEOUT 16
