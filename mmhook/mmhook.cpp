@@ -1,7 +1,7 @@
 // mmhook.cpp : Shell hook DLL to support multimon.cpp
 // Contains the functionality to move windows between monitors.
 //
-// Copyright(c) 2014 Ben Anderson
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
 //
 
 #include "stdafx.h"

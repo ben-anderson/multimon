@@ -1,3 +1,9 @@
+// mmhook.h : Shell hook DLL to support multimon.cpp
+// Contains the functionality to move windows between monitors.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 // The following ifdef block is the standard way of creating macros which make exporting 
 // from a DLL simpler. All files within this DLL are compiled with the MMHOOKS64_EXPORTS
 // symbol defined on the command line. This symbol should not be defined on any project
