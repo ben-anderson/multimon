@@ -13,8 +13,7 @@
 #define LOG_WARN 1
 #define LOG_INFO 2
 
-#define LOGSIGNALNAME TEXT("multimon_log_message")
-#define DLLSIGNALNAME TEXT("multimon_mmap_dll_update")
+#define LOGSIGNALNAME TEXT("_multimon_log_message")
 
 
 typedef struct _tag_LOGSHARED
