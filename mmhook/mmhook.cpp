@@ -115,7 +115,7 @@ RECT MoveRectToMonitor(RECT *prSrc, RECT *prSrcMon, RECT *prDstMon)
 		}
 	}
 
-	// The bottom edge is off the screen. Attempt to move the window to the left to make it fit.
+	// The bottom edge is off the screen. Attempt to move the window to the top to make it fit.
 	if (rDst.bottom > prDstMon->bottom)
 	{
 		rDiff.top    = prSrc->top    - prDstMon->top;
