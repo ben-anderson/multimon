@@ -139,9 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="hook.h" />
     <ClInclude Include="logserver.h" />
     <ClInclude Include="mmap.h" />
