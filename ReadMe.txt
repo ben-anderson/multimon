@@ -1,7 +1,7 @@
 ========================================================================
     Multimon: A multi monitor tool
 
-  Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+    Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
 ========================================================================
 
 
@@ -18,11 +18,13 @@ Windows are sized to fit the new monitor.
 TODO LIST
 ----------
 
-- Create a nice icon.
-
-- Add a control panel to allow per application window position overrides.
+- Finish code documentation.
 
 - Consolidate log.cpp and logserver.cpp.
 
 - Move log.cpp and mmap.cpp into a library.
+
+- Create a nice icon.
+
+- Add a control panel to allow per application window position overrides.
 
