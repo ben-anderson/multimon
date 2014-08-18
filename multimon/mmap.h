@@ -1,3 +1,8 @@
+// mmap.h : A multi-process shared memory implementation.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #pragma once
 
 class MMap

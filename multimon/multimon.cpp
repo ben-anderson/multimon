@@ -1,4 +1,7 @@
-// multimon.cpp : Defines the entry point for the application.
+// multimon.cpp : Multi Monitor Tool
+// Window initialization and main message loop.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
 //
 
 #include "stdafx.h"

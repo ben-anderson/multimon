@@ -1,3 +1,9 @@
+// logserver.h : A multi-process log receiver.
+// Requires the mmap library class.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #pragma once
 #include <string>
 #include <vector>
@@ -11,8 +17,8 @@
 #define LOG_INFO 2
 
 //#define DLLSIGNALNAME TEXT("multimon_mmap_dll_update")
-#define LOGEXITNAME   TEXT("multimon_log_pump_exit")
-#define LOGSIGNALNAME TEXT("multimon_log_message")
+#define LOGEXITNAME   TEXT("_multimon_log_pump_exit")
+#define LOGSIGNALNAME TEXT("_multimon_log_message")
 
 #define LOG_EVENT_READ 0
 #define LOG_EVENT_EXIT 1

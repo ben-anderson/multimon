@@ -1,3 +1,8 @@
+// hook.cpp : Routines to set/remove the Windows Shell hook.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #include "stdafx.h"
 #include "hook.h"
 #include "log.h"

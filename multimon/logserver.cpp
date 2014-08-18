@@ -1,3 +1,9 @@
+// logserver.cpp : A multi-process log receiver.
+// Requires the mmap library class.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #include "stdafx.h"
 #include <chrono>
 #include <ctime>

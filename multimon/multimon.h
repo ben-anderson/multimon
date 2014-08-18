@@ -1,3 +1,9 @@
+// multimon.h : Multi Monitor Tool
+// Window initialization and main message loop.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #pragma once
 
 #define MAX_LOADSTRING 100

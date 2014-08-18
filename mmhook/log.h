@@ -1,3 +1,9 @@
+// log.h : A multi-process log sender.
+// Requires the mmap library class.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #pragma once
 #include "../multimon/mmap.h"
 
@@ -7,8 +13,8 @@
 #define LOG_WARN 1
 #define LOG_INFO 2
 
-#define LOGSIGNALNAME TEXT("multimon_log_message")
-#define DLLSIGNALNAME TEXT("multimon_mmap_dll_update")
+#define LOGSIGNALNAME TEXT("_multimon_log_message")
+#define DLLSIGNALNAME TEXT("_multimon_mmap_dll_update")
 
 
 typedef struct _tag_LOGSHARED

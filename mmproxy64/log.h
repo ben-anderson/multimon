@@ -1,3 +1,9 @@
+// log.h : A multi-process log sender.
+// Requires the mmap library class.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #pragma once
 #include "../multimon/mmap.h"
 

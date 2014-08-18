@@ -1,3 +1,8 @@
+// hook.h : Routines to set/remove the Windows Shell hook.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
+//
+
 #pragma once
 
 #ifdef _WIN64

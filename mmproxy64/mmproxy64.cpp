@@ -1,4 +1,6 @@
-// mmproxy64.cpp : Defines the entry point for the application.
+// mmproxy64.cpp : Proxy to load the 64 bit shell hook DLL.
+//
+// Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
 //
 
 #include "stdafx.h"
