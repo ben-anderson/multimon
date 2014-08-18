@@ -1,62 +1,28 @@
 ========================================================================
-    WIN32 APPLICATION : multimon Project Overview
+    Multimon: A multi monitor tool
+
+  Licenced under the GPL V2. Copyright(c) 2014 Ben Anderson.
 ========================================================================
 
-AppWizard has created this multimon application for you.
 
-This file contains a summary of what you will find in each of the files that
-make up your multimon application.
+Multimon is a multi monitor tool which watches for newly created top level
+windows and checks which monitor they were created on.
+
+If they were not created on the same monitor that the mouse is on, they will
+be moved to that monitor.
+
+Windows are sized to fit the new monitor.
 
 
-multimon.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+----------
+TODO LIST
+----------
 
-multimon.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+- Create a nice icon.
 
-multimon.cpp
-    This is the main application source file.
+- Add a control panel to allow per application window position overrides.
 
-/////////////////////////////////////////////////////////////////////////////
-AppWizard has created the following resources:
+- Consolidate log.cpp and logserver.cpp.
 
-multimon.rc
-    This is a listing of all of the Microsoft Windows resources that the
-    program uses.  It includes the icons, bitmaps, and cursors that are stored
-    in the RES subdirectory.  This file can be directly edited in Microsoft
-    Visual C++.
+- Move log.cpp and mmap.cpp into a library.
 
-Resource.h
-    This is the standard header file, which defines new resource IDs.
-    Microsoft Visual C++ reads and updates this file.
-
-multimon.ico
-    This is an icon file, which is used as the application's icon (32x32).
-    This icon is included by the main resource file multimon.rc.
-
-small.ico
-    This is an icon file, which contains a smaller version (16x16)
-    of the application's icon. This icon is included by the main resource
-    file multimon.rc.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named multimon.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////

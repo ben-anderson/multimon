@@ -139,9 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\multimon\mmap.h" />
     <ClInclude Include="hook.h" />
     <ClInclude Include="log.h" />
